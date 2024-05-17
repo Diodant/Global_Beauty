@@ -31,8 +31,10 @@ const Navigation = () => {
           </div>
           <ul>
             <li><Link to="/">Главная</Link></li>
-            <li><Link to="/about">Номинации</Link></li>
-            <li><Link to="/services">Services</Link></li>
+            <li><Link to="/about">О нас</Link></li>
+            <li><Link to="/winners">Победители</Link></li>
+            <li><Link to="/position">Положение</Link></li>
+            <li><Link to="/ratings">Критерии оценки</Link></li>
             <li><Link to="/contact">Contact</Link></li>
           </ul>
         </div>

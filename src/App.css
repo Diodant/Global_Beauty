@@ -121,7 +121,6 @@ a:focus {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 25px 0px;
   font-family: 'Jost', sans-serif;
   position: absolute;
   width: 100%;
@@ -137,8 +136,8 @@ a:focus {
 }
 
 .logo img{
-  width: 120px;
-  height: 120px;
+  width: 150px;
+  height: 150px;
 }
 
 .menu-icon, .close-icon {
@@ -217,6 +216,7 @@ a:focus {
   background-size: cover;
   background-position: center;
   min-height: 70vh;
+  background-color: rgb(24, 24, 24);
 }
 
 .text-center {
@@ -224,7 +224,6 @@ a:focus {
 }
 
 .content-overlay {
-
   padding: 20px;
   text-align: center;
 }
@@ -248,10 +247,12 @@ a:focus {
 
 .join-button {
   margin-top: 20px;
-  font-size: 18px;
+  font-size: 14px;
   padding: 15px 30px;
   text-transform: uppercase;
   border: none;
+  font-weight: 400;
+  letter-spacing: 0.15em;
   background-color: rgba(240, 232, 227, 1);
   color: #000;
   cursor: pointer;
@@ -321,7 +322,7 @@ a:focus {
   text-shadow: 0 1px 3px rgba(0, 0, 0, 0,1);
 }
 
-.secondary-button {
+/* .secondary-button {
   margin-top: 20px;
   font-size: 18px;
   padding: 15px 30px;
@@ -343,7 +344,7 @@ a:focus {
 .secondary-button:active {
   transform: translateY(1px);
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-}
+} */
 
 .nomination-container {
   display: flex;
@@ -380,6 +381,14 @@ a:focus {
   align-self: stretch;
 }
 
+.nomination-details h1 {
+  font-size: 30px;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  color: #333;
+  text-align: center;
+}
+
 .nomination-details h2 {
   font-size: 24px;
   margin-bottom: 15px;
@@ -393,5 +402,196 @@ a:focus {
   line-height: 1.6;
   color: #666;
   text-align: center;
+  margin-bottom: 15px;
+}
+
+.third-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  max-width: 1350px; /* Максимальная ширина, как на вашем примере */
+  margin: 0 auto; /* Центрирование контейнера */
+}
+
+.third-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Jost', sans-serif;
+}
+
+.third-section {
+  flex: 1;
+  padding: 20px;
+  text-align: center;
+}
+
+.third-sub-section {
+  flex: 1;
+  padding: 60px;
+  text-align: center;
+}
+
+.third-section h2 {
+  font-size: 35px;
   margin-bottom: 20px;
+  line-height: 1.6;
+  color: #333;
+  font-weight: 400;
+}
+
+.third-section p {
+  font-size: 18px;
+  color: #666;
+  line-height: 1.6;
+}
+
+.mission-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-position: center;
+  margin: 100px 0px;
+  padding: 100px 50px;
+  opacity: 0.8;
+  position: relative;
+}
+
+.mission-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5); /* Черный фон с 50% прозрачностью */
+  z-index: -1;
+}
+
+
+
+.mission-content {
+  max-width: 830px;
+  background-color: rgba(255, 255, 255, 1);
+  padding: 50px;
+  position: relative;
+  z-index: 1;
+}
+
+.mission-title {
+  font-size: 48px;
+  text-transform: uppercase;
+  line-height: 1.2;
+  letter-spacing: 0.08em;
+  font-size: 54px;
+  text-align: center;
+  color: rgba(172, 142, 118, 1);;
+  margin-bottom: 20px;
+}
+
+.mission-sub-title {
+  margin-bottom: 20px;
+  color: rgba(0, 0, 0, 1);
+    text-transform: uppercase;
+    line-height: 1.8;
+    letter-spacing: 0.1em;
+    text-align: center;
+    font-family: 'Questrial';
+    font-weight: 400;
+}
+
+.mission-text {
+  font-size: 18px;
+  color: #666;
+  text-align: center;
+  line-height: 1.6;
+}
+
+.for-section {
+  /* background-color: #f0ece6; */
+  padding: 100px 20px;
+}
+
+.for-content {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 20px;
+  text-align: center;
+}
+
+/* AboutUs */
+
+.about-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 50px;
+  background-color: #faf8f7;
+  max-width: 1350px;
+  margin: auto;
+}
+
+.about-title {
+  color: #000;
+  text-align: center;
+  font-size: 50px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  letter-spacing: 0.05em;
+}
+
+.about-text {
+  margin: 20px 0px;
+  text-align: center;
+  color: #555;
+    font-size: 22px;
+    line-height: 2.2;
+    font-weight: 400;
+    padding: 0 50px;
+}
+
+.about-sub-title {
+  font-size: 30px;
+  margin: 20px 0px;
+  text-transform: uppercase;
+  color: #333;
+  text-align: center;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+.mt-50 {
+  margin-top: 50px;
+}
+
+.nomination-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+.nomination-list li {
+  padding: 10px 0;
+  font-size: 22px;
+  text-transform: uppercase;
+  color: #333;
+  background-repeat: no-repeat; /* Не повторяем картинку */
+  background-position: 0 50%; /* Позиция картинки слева по центру */
+  padding-left: 50px; /* Отступ для текста, чтобы не перекрывал картинку */
+  background-image: url('./img/win.png'); /* Путь к вашей картинке */
+  background-size: 40px 40px; /* Устанавливаем размер фонового изображения */
+}
+
+.nomination-text {
+  text-align: center;
+  color: #555;
+  font-size: 22px;
+  line-height: 2.2;
+  font-weight: 400;
+  padding: 0 50px;
 }
