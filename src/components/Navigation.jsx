@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import LogoImg from '../img/global_Монтажная область 1.svg'
+import LogoImg from '../img/logo.svg'
 import OpenImg from '../img/open.svg';
 import CloseImg from '../img/close.svg';
 
@@ -33,9 +33,10 @@ const Navigation = () => {
             <li><Link to="/">Главная</Link></li>
             <li><Link to="/about">О нас</Link></li>
             <li><Link to="/winners">Победители</Link></li>
+            <li><Link to="/jury">Жюри</Link></li>
             <li><Link to="/position">Положение</Link></li>
             <li><Link to="/ratings">Критерии оценки</Link></li>
-            <li><Link to="/contact">Contact</Link></li>
+            <li><Link to="/contacts">Контакты</Link></li>
           </ul>
         </div>
       </div>

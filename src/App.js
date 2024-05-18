@@ -4,7 +4,7 @@ import Navigation from './components/Navigation';
 import MainContent from './components/MainContent';
 import AboutAward from './components/AboutAward';
 import CriteriaRating from './components/CriteriaRating';
-// import Jur from './components/Jur';
+import Jury from './components/Jury';
 import Win from './components/Win';
 import Position from './components/Position';
 // import Photos from './components/Photos';
@@ -25,6 +25,7 @@ function App() {
           <Route path="/winners" element={<Win />} />
           <Route path="/ratings" element={<CriteriaRating />} />
           <Route path="/position" element={<Position />} />
+          <Route path="/jury" element={<Jury />} />
           {/* <Route path="/ratings" element={<CriteriaRating />} />
           <Route path="/jury" element={<Jur />} />
           <Route path="/winners" element={<Win />} />

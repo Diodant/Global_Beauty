@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import PhotoGallery from './PhotoGallery'
 import BackgroundImg from '../img/img_4130.jpg';
 import SideImage from '../img/1.png';
 import NominationImage from '../img/hair_extensions_mane.jpg';
@@ -124,6 +125,7 @@ const MainContent = () => {
         </div>
     </div>
     </section>
+    <PhotoGallery />
     </div>
   );
 };
