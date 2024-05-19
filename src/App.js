@@ -7,9 +7,9 @@ import CriteriaRating from './components/CriteriaRating';
 import Jury from './components/Jury';
 import Win from './components/Win';
 import Position from './components/Position';
-// import Photos from './components/Photos';
+import LastJury from './components/LastJury';
 // import Form from './components/Form';
-// import Contacts from './components/Contacts';
+import Contacts from './components/Contacts';
 import Footer from './components/Footer';
 
 import './App.css';
@@ -26,6 +26,8 @@ function App() {
           <Route path="/ratings" element={<CriteriaRating />} />
           <Route path="/position" element={<Position />} />
           <Route path="/jury" element={<Jury />} />
+          <Route path="/lastjury" element={<LastJury />} />
+          <Route path="/contacts" element={<Contacts />} />
           {/* <Route path="/ratings" element={<CriteriaRating />} />
           <Route path="/jury" element={<Jur />} />
           <Route path="/winners" element={<Win />} />

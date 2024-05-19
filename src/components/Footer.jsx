@@ -22,7 +22,7 @@ function Footer() {
           <li>События</li>
           <li><Link to="/winners">Победители</Link></li>
           <li><Link to="/jury">Жюри</Link></li>
-          <li><Link to="/winners">Жюри прошлых лет</Link></li>
+          <li><Link to="/lastjury">Жюри прошлых лет</Link></li>
         </ul>
         <ul>
           <li>Ресурсы</li>
