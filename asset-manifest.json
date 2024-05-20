@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Global_Beauty/static/css/main.50265cdc.css",
-    "main.js": "/Global_Beauty/static/js/main.c4ee561d.js",
+    "main.css": "/Global_Beauty/static/css/main.162d4c5e.css",
+    "main.js": "/Global_Beauty/static/js/main.379c73a3.js",
     "static/js/453.766e5ff4.chunk.js": "/Global_Beauty/static/js/453.766e5ff4.chunk.js",
     "static/media/1.png": "/Global_Beauty/static/media/1.4f0ba8a508058cf6455d.png",
     "static/media/img2.jpg": "/Global_Beauty/static/media/img2.ef8997c611cbfb129d8c.jpg",
@@ -71,12 +71,12 @@
     "index.html": "/Global_Beauty/index.html",
     "static/media/open.svg": "/Global_Beauty/static/media/open.c345dbd827260a209b78a799d8b8ad58.svg",
     "static/media/close.svg": "/Global_Beauty/static/media/close.3d5ccb3c06264dd8a878a5a42f52d09e.svg",
-    "main.50265cdc.css.map": "/Global_Beauty/static/css/main.50265cdc.css.map",
-    "main.c4ee561d.js.map": "/Global_Beauty/static/js/main.c4ee561d.js.map",
+    "main.162d4c5e.css.map": "/Global_Beauty/static/css/main.162d4c5e.css.map",
+    "main.379c73a3.js.map": "/Global_Beauty/static/js/main.379c73a3.js.map",
     "453.766e5ff4.chunk.js.map": "/Global_Beauty/static/js/453.766e5ff4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.50265cdc.css",
-    "static/js/main.c4ee561d.js"
+    "static/css/main.162d4c5e.css",
+    "static/js/main.379c73a3.js"
   ]
 }
