@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Global_Beauty/static/css/main.8e221f24.css",
-    "main.js": "/Global_Beauty/static/js/main.a35a3b1d.js",
+    "main.css": "/Global_Beauty/static/css/main.50265cdc.css",
+    "main.js": "/Global_Beauty/static/js/main.c4ee561d.js",
     "static/js/453.766e5ff4.chunk.js": "/Global_Beauty/static/js/453.766e5ff4.chunk.js",
     "static/media/1.png": "/Global_Beauty/static/media/1.4f0ba8a508058cf6455d.png",
     "static/media/img2.jpg": "/Global_Beauty/static/media/img2.ef8997c611cbfb129d8c.jpg",
@@ -34,6 +34,7 @@
     "static/media/jury-bg.jpg": "/Global_Beauty/static/media/jury-bg.47d80b5b66c015aa983a.jpg",
     "static/media/growth_img_4.jpg": "/Global_Beauty/static/media/growth_img_4.2c5daebb04c2e59ac28f.jpg",
     "static/media/year_img_2.jpg": "/Global_Beauty/static/media/year_img_2.54c686ff10a95909afda.jpg",
+    "static/media/partner4.png": "/Global_Beauty/static/media/partner4.bcb549942afbf3cbdf7a.png",
     "static/media/img17.jpg": "/Global_Beauty/static/media/img17.1820e257085bee4860f4.jpg",
     "static/media/master_img_4.jpg": "/Global_Beauty/static/media/master_img_4.35783e8cea819841070a.jpg",
     "static/media/img18.jpg": "/Global_Beauty/static/media/img18.64b6928e0e7ace407f51.jpg",
@@ -50,12 +51,14 @@
     "static/media/inovator_img_2.jpg": "/Global_Beauty/static/media/inovator_img_2.e65234aca782fbff8284.jpg",
     "static/media/year_img_4.jpg": "/Global_Beauty/static/media/year_img_4.0cd3825b9d4a11b21477.jpg",
     "static/media/master_img_2.jpg": "/Global_Beauty/static/media/master_img_2.7e60ea1aa833b5d32be0.jpg",
+    "static/media/partner1.png": "/Global_Beauty/static/media/partner1.078ece4180879f142d39.png",
     "static/media/master_img_3.jpg": "/Global_Beauty/static/media/master_img_3.7d54fc3c76a0f05b1710.jpg",
     "static/media/makeup_img_2.jpg": "/Global_Beauty/static/media/makeup_img_2.33df21e4acaf99b1546e.jpg",
     "static/media/medic_img_3.jpg": "/Global_Beauty/static/media/medic_img_3.7f70797b086f9d37e3ef.jpg",
     "static/media/logo.svg": "/Global_Beauty/static/media/logo.a13e044931d436251849091f7e1b1f33.svg",
     "static/media/barber_img_1.jpg": "/Global_Beauty/static/media/barber_img_1.f548cf095b68278efa4a.jpg",
     "static/media/barber_img_2.jpg": "/Global_Beauty/static/media/barber_img_2.e0a55e9013503e7a47ed.jpg",
+    "static/media/partner3.png": "/Global_Beauty/static/media/partner3.475ecef356c5cefc3f32.png",
     "static/media/master_img_1.jpg": "/Global_Beauty/static/media/master_img_1.1fdd86ad95cc8802105a.jpg",
     "static/media/medic_img_2.jpg": "/Global_Beauty/static/media/medic_img_2.7d08c772bf4b0cd32f9a.jpg",
     "static/media/barber_img_3.jpg": "/Global_Beauty/static/media/barber_img_3.be48f1a8388adcb4e52e.jpg",
@@ -64,15 +67,16 @@
     "static/media/makeup_img_1.jpg": "/Global_Beauty/static/media/makeup_img_1.de2bb5692ef9a4c22890.jpg",
     "static/media/medic_img_1.jpg": "/Global_Beauty/static/media/medic_img_1.46fb88a01d78c9812be8.jpg",
     "static/media/medic_img_4.jpg": "/Global_Beauty/static/media/medic_img_4.010f4a10457a32ab0581.jpg",
+    "static/media/partner6.webp": "/Global_Beauty/static/media/partner6.1e8d580d43238d1cbe69.webp",
     "index.html": "/Global_Beauty/index.html",
     "static/media/open.svg": "/Global_Beauty/static/media/open.c345dbd827260a209b78a799d8b8ad58.svg",
     "static/media/close.svg": "/Global_Beauty/static/media/close.3d5ccb3c06264dd8a878a5a42f52d09e.svg",
-    "main.8e221f24.css.map": "/Global_Beauty/static/css/main.8e221f24.css.map",
-    "main.a35a3b1d.js.map": "/Global_Beauty/static/js/main.a35a3b1d.js.map",
+    "main.50265cdc.css.map": "/Global_Beauty/static/css/main.50265cdc.css.map",
+    "main.c4ee561d.js.map": "/Global_Beauty/static/js/main.c4ee561d.js.map",
     "453.766e5ff4.chunk.js.map": "/Global_Beauty/static/js/453.766e5ff4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8e221f24.css",
-    "static/js/main.a35a3b1d.js"
+    "static/css/main.50265cdc.css",
+    "static/js/main.c4ee561d.js"
   ]
 }
