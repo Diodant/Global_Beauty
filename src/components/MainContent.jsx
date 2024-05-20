@@ -1,16 +1,29 @@
-import React, { useEffect } from 'react';
-import { Link } from 'react-router-dom';
+import React, { useEffect, useRef } from 'react';
+import { Link, useLocation } from 'react-router-dom';
 import PhotoGallery from './PhotoGallery'
+import Form from './Form'
 import BackgroundImg from '../img/img_4130.jpg';
 import SideImage from '../img/1.png';
 import NominationImage from '../img/hair_extensions_mane.jpg';
 import MissionImage from '../img/mission-bg.jpg';
+import Partner1 from '../img/partners/partner1.png';
+import Partner2 from '../img/partners/partner2.png';
+import Partner3 from '../img/partners/partner3.png';
+import Partner4 from '../img/partners/partner4.png';
+import Partner5 from '../img/partners/partner5.png';
+import Partner6 from '../img/partners/partner6.webp';
 
 const MainContent = () => {
 
+  const nominationRef = useRef(null);
+  const { hash } = useLocation();
+
   useEffect(() => {
     window.scrollTo(0, 0);
-  }, []);
+    if (hash === '#nominations' && nominationRef.current) {
+      nominationRef.current.scrollIntoView({ behavior: 'smooth' });
+    }
+  }, [hash]);
 
   return (
     <div>
@@ -20,7 +33,7 @@ const MainContent = () => {
         <div className="content-overlay">
           <div className="main-sub-title">Международная Премия</div>
           <div className="main-title">Global Beauty Leader</div>
-          <Link to="/form">
+          <Link to="/contacts">
             <button className="join-button">Подать заявку</button>
           </Link>
         </div>
@@ -41,7 +54,7 @@ const MainContent = () => {
           </Link>
         </div>
       </div>
-      <div className='nomination-text-container'>
+      <div ref={nominationRef} className='nomination-text-container'>
       <h2 className="secondary-sub-title">Номинации</h2>
       <h1 className="secondary-title">Global Beauty Leader</h1>
       </div>
@@ -100,9 +113,10 @@ const MainContent = () => {
     </div>
     <section className='for-section'>
     <div class="for-content">
-    <h2 class="for-title">ПАРТНЕРЫ</h2>
+    <h2 class="secondary-sub-title">Спонсоры</h2>
+    <h1 className="secondary-title">Global Beauty Leader</h1>
     <div className="partner-images">
-          {/* <div className="partner-card">
+         <div className="partner-card">
             <img src={Partner1} alt="Partner1" className="partner-image" />
           </div>
           <div className="partner-card">
@@ -114,17 +128,18 @@ const MainContent = () => {
         </div>
         <div className="partner-images">
           <div className="partner-card">
-            <img src={Partner6} alt="Partner6" className="partner-image" />
+            <img src={Partner4} alt="Partner6" className="partner-image" />
           </div>
           <div className="partner-card">
-            <img src={Partner7} alt="Partner7" className="partner-image" />
+            <img src={Partner5} alt="Partner7" className="partner-image" />
           </div>
           <div className="partner-card">
-            <img src={Partner8} alt="Partner8" className="partner-image" />
-          </div> */}
+            <img src={Partner6} alt="Partner8" className="partner-image" />
+          </div>
         </div>
     </div>
     </section>
+    <Form />
     <PhotoGallery />
     </div>
   );

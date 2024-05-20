@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import BackgroundImg from '../img/img_4130.jpg';
+import Form from './Form'
 
 const Contacts = () => {
   useEffect(() => {
@@ -18,7 +19,7 @@ const Contacts = () => {
       </div>
       <div className="about-content">
         <div className="contact-details">
-          <h2 className="about-title">Свяжитесь с нами</h2>
+          <h2 className="about-title">Контакты</h2>
           <h1 className="secondary-title mb-20">Be In Touch</h1>
           <div className='contact-card'>
           <p className="contact-info"><strong>Email:</strong> globalbeautyleader2020@gmail.com</p>
@@ -27,6 +28,7 @@ const Contacts = () => {
           </div>
         </div>
       </div>
+      <Form />
     </div>
   );
 }

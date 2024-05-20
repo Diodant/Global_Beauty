@@ -50,6 +50,7 @@ const Navigation = () => {
             <li><Link to="/winners">Победители</Link></li>
             <li><Link to="/lastjury">Жюри прошлых лет</Link></li>
             <li><Link to="/jury">Жюри</Link></li>
+            <li><Link to="/#nominations">Номинации</Link></li>
             <li><Link to="/position">Положение</Link></li>
             <li><Link to="/ratings">Критерии оценки</Link></li>
             <li><Link to="/contacts">Контакты</Link></li>

@@ -16,7 +16,7 @@ function Footer() {
           <li>Навигация</li>
           <li className='footer-links'><Link to="/">Главная</Link></li>
           <li><Link to="/about">О нас</Link></li>
-          <li>Номинации</li>
+          <li><Link to="/#nominations">Номинации</Link></li>
         </ul>
         <ul>
           <li>События</li>
