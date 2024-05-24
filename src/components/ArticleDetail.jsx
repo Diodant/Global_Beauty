@@ -1,7 +1,7 @@
 import React from 'react';
 import { useParams, Link } from 'react-router-dom';
 import articles from '../components/articles';
-import BackgroundImg from '../img/jury-bg.jpg';
+import BackgroundImg from '../img/articles-bg.jpg';
 
 const ArticleDetail = () => {
     const { id } = useParams();
