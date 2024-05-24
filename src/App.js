@@ -8,7 +8,8 @@ import Jury from './components/Jury';
 import Win from './components/Win';
 import Position from './components/Position';
 import LastJury from './components/LastJury';
-// import Form from './components/Form';
+import ArticleList from './components/ArticleList';
+import ArticleDetail from './components/ArticleDetail';
 import Contacts from './components/Contacts';
 import Footer from './components/Footer';
 
@@ -27,14 +28,9 @@ function App() {
           <Route path="/position" element={<Position />} />
           <Route path="/jury" element={<Jury />} />
           <Route path="/lastjury" element={<LastJury />} />
+          <Route path="/articles" element={<ArticleList />} />
+          <Route path="/articles/:id" element={<ArticleDetail />} />
           <Route path="/contacts" element={<Contacts />} />
-          {/* <Route path="/ratings" element={<CriteriaRating />} />
-          <Route path="/jury" element={<Jur />} />
-          <Route path="/winners" element={<Win />} />
-          <Route path="/position" element={<Position />} />
-          <Route path="/form" element={<Form />} />
-          <Route path="/photos" element={<Photos />} />
-          <Route path="/contacts" element={<Contacts />} /> */}
         </Routes>
         <Footer />
       </div>
