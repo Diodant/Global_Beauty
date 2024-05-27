@@ -1,9 +1,17 @@
-import React from 'react';
+import React, { useEffect, useRef } from 'react';
 import { Link } from 'react-router-dom';
 import articles from '../components/articles';
 import BackgroundImg from '../img/articles-bg.jpg';
 
 const ArticleList = () => {
+    const articleListRef = useRef(null);
+
+    useEffect(() => {
+        if (articleListRef.current) {
+            articleListRef.current.scrollIntoView({ behavior: 'smooth' });
+        }
+    }, []);
+
     const truncateText = (text, limit) => {
         if (text.length > limit) {
             return text.substring(0, limit) + '...';
@@ -34,7 +42,7 @@ const ArticleList = () => {
                     <div className="main-title">Global Beauty Leader</div>
                 </div>
             </div>
-            <div className="article-list">
+            <div ref={articleListRef} className="article-list">
                 <h2 className="secondary-sub-title">Статьи</h2>
                 <h1 className="secondary-title mb-50">beauty tips + tricks</h1>
                 <div className="article-grid">
