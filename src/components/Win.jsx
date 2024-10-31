@@ -15,6 +15,26 @@ const Win = () => {
     setYear(newYear);
   };
 
+  useEffect(() => {
+    const replaceName = () => {
+
+      const elements = document.querySelectorAll('[data-translate-custom="true"]');
+      elements.forEach((el) => {
+        if (document.documentElement.lang !== 'ru') {
+          el.textContent = 'Leila Gajiyeva (Kazakhstan)';
+        }
+      });
+    };
+
+    const observer = new MutationObserver(() => {
+      replaceName();
+    });
+
+    observer.observe(document.body, { childList: true, subtree: true });
+
+    return () => observer.disconnect();
+  }, []);
+
   const selectedYearData = data.find((item) => item.year === year);
 
   return (
@@ -43,7 +63,9 @@ const Win = () => {
               {selectedYearData.items.map((item, index) => (
                 <div key={index} className="win-item">
                   <div className='win-title'>{item.title}</div>
-                  <div className='win-text'><img src={WinImg} alt="Win" />{item.name}</div>
+                  <div className='win-text' data-translate-custom={item.name === "Лейла Гаджиева (Казахстан)" ? "true" : "false"}>
+                  <img src={WinImg} alt="Win" />{item.name}
+              </div>
                   <div className='win-sub-text'>{item.text}</div>
                   <div className='win-text'><img src={WinImg} alt="Win" />{item.name2}</div>
                   <div className='win-sub-text'>{item.text2}</div>
