@@ -1125,3 +1125,7 @@ a:focus {
     font-size: 18px;
     text-align: left;
 }
+
+.bold {
+  font-weight: 500;
+}
