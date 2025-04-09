@@ -1,11 +1,15 @@
 <IfModule mod_rewrite.c>
-
   RewriteEngine On
   RewriteBase /
+
+  ; # Блокировка по GeoIP
+  ; RewriteCond %{ENV:GEOIP_COUNTRY_CODE} !^US$ [NC]
+  ; RewriteRule .* - [F,L]
+
+  # Ваши существующие правила
   RewriteRule ^index\.html$ - [L]
   RewriteCond %{REQUEST_FILENAME} !-f
   RewriteCond %{REQUEST_FILENAME} !-d
   RewriteCond %{REQUEST_FILENAME} !-l
   RewriteRule . /index.html [L]
-
 </IfModule>
