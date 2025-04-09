@@ -26,7 +26,7 @@ const Contacts = () => {
             Всероссийская Общественная Организация «Сообщество Предприятий индустрии красоты» (СПИК)</p>
           <p className="contact-info"><strong className='bold'>Email:</strong> aspikrussia@gmail.com</p>
           <p className="contact-info"><strong className='bold'>Телефон:</strong> +7 (909) 337 09-96</p>
-          <p className="contact-info"><strong className='bold'>Адрес:</strong> Адрес: 413 115, Саратовская Область, город Энгельс, ул. Смоленская, дом 23</p>
+          <p className="contact-info"><strong className='bold'>Адрес:</strong> 413 115, Саратовская Область, город Энгельс, ул. Смоленская, дом 23</p>
           <p className="contact-info"><strong className='bold'>Официальный сайт СПИК:</strong> https://spikrussia.ru/</p>
           <p className="contact-info"><strong className='bold'>Электронная почта для подачи заявок на участие в Международной Премии Global Beauty Leader: </strong> globalbeautyleader2020@gmail.com</p>
           </div>
